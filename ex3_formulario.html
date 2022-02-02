@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <legend>Dados do usuario</legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+     
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" placeholder="Seu sobrenome" required> <br><br>
+            
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" required placeholder="Seu CPF"> <br><br>
+     
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="@gmail.com" required> <br><br>
+     
+            <label for="sx">Sexo</label>
+            <select  id="sx" >
+                <option value="m" sel>Masculino</option>
+                <option value="f" selected>Feminino</option>
+                <option value="n">Outro</option>
+            </select>
+            
+            <label for="data">Data de nascimento</label>
+            <input type="date" id="data" required> <br><br>
+
+            <h4>Fale um pouco sobre voçê</h4>
+            <label for="tex"></label>
+            <textarea name="" id="tex" cols="70" rows="10" placeholder="fale sobre vc"></textarea><br><br>
+            
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" minlength="6" maxlength="20" placeholder="Sua senha"> <br>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Refazer</button>
+    </form>
+</body>
+</html>
