@@ -1,0 +1,32 @@
+:root{
+    --cor-de-fundo: rgba(192, 241, 241, 0.241);
+    --cor-dos-campos:rgba(230, 13, 13, 0.22);
+}
+
+
+form fieldset{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--cor-de-fundo);
+    border: 0.1px solid rgba(0, 0, 0, 0.282);
+    border-radius: 3.5px;
+    font-size:  13px;
+}
+
+input[required]{
+    border: solid var(--cor-dos-campos) 0.1px;
+}
+
+button{
+    display: inline-flex;
+    color: rgb(58, 15, 15);
+}
+
+form legend{
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+input::placeholder{
+    color: var(--cor-dos-campos);
+    font-size: 11px;
+}

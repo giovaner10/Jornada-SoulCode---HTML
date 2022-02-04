@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ex6_formulatio.css">
+    <title>Formulario Estilizado com CSS</title>
+</head>
+
+<body>
+
+    <form action="">
+
+        <fieldset>
+
+
+            <legend>Realizar Cadastro</legend>
+
+            <label for="nome">Nome</label>
+            <input type="text" required id="nome" placeholder="Informe seu nome"><br><br>
+
+            <label for="foto-perfil">Escolher foto de perfil</label>
+            <input type="file" required id="foto-perfil" accept="image/*"><br><br>
+
+            <label for="username">Criar nome de usuario</label>
+            <input type="text" required id="username" placeholder="Escolha um nome de usuario"><br><br>
+
+            <label for="email">Email</label>
+            <input type="email" required id="email" placeholder="Informe o seu email"><br><br>
+
+            <label for="cpf">CPF</label>
+            <input type="text" required id="cpf" placeholder="Informe o seu CPF"><br><br>
+
+            <label for="senha">Criar senha</label>
+            <input type="password" required id="senha" placeholder="Escolha uma senha" minlength="5" maxlength="18">
+
+        </fieldset><br>
+
+        <section>
+
+            <button type="submit">Realizar cadastro</button>
+            <button type="reset">Refazer cadastro</button>
+
+        </section>
+
+    </form>
+
+</body>
+
+</html>
