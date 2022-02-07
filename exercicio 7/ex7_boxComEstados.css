@@ -1,0 +1,22 @@
+body{
+    text-align: center;
+}
+article{
+    border: 1px solid rgb(19, 17, 17);
+    display: inline-block;
+    width: 400px;
+    margin: 10px;
+    text-align: left;
+}
+
+article img{
+    padding: 5px;
+    float: left;
+    height: 150px;
+    width: 100px;
+}
+
+article section{
+    display: inline;
+    padding-bottom: 5px;
+}
