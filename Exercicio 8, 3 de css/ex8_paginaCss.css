@@ -1,0 +1,26 @@
+body{
+    background-color: darkgray;
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
+h1{
+    padding: 40px;
+}
+
+main{
+    margin: 10px;
+    background-color: red;
+    padding: 30px;
+    width: 100%;
+}
+
+section{
+    background-color: green;
+    color: black;
+}
+
+footer{
+    padding: 20px;
+}
