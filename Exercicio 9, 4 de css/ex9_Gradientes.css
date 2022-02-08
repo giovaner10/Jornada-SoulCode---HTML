@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+section p{
+    border-bottom: 2px solid black;
+    display: block;
+    height: 100vh;
+    margin: 0;
+    background-size: cover;
+    font-size: 25px;
+    color: white;
+
+}
+
+p#um{
+    background-image: repeating-linear-gradient(red, rgb(158, 15, 163) , rgb(67, 187, 67) );
+}
+
+p#dois{
+    background-image: repeating-linear-gradient(red, rgb(0, 255, 98) 50%, green 20%);
+}
+
+p#tres{
+    background-image: repeating-linear-gradient(rgb(4, 0, 255), yellow 20%, green 40%);
+
+}
+
+p#quatro{
+    background-image: repeating-linear-gradient(red 50%, rgb(221, 179, 41) , rgb(231, 29, 147));
+
+}
+
+p#cinco{
+    background-image: repeating-linear-gradient(red 60%, yellow 10%, green );
+
+}
+
+p#seis{
+    background-image: radial-gradient(red, rgb(0, 174, 255) , green);
+
+}
+
+p#sete{
+    background-image: radial-gradient(red 20%, yellow 70%, green);
+
+}
+
+p#oito{
+    background-image: radial-gradient(rgb(200, 255, 0) 20%, rgb(4, 0, 255) 70%, rgb(128, 0, 100));
+
+}
+
+p#nove{
+    background-image: url(http://i.stack.imgur.com/kx8MT.gif);
+
+}
+
+p#dez{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/6/6f/Limanigif.gif);
+
+}
+
+p#onze{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Rotating_earth_%28large%29.gif/250px-Rotating_earth_%28large%29.gif);
+
+}
+
+p#doze{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/b/b6/Madeiraflag.gif);
+
+}
+p#treze{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/%C3%89tang_de_Thau%2C_S%C3%A8te_cf01.jpg/527px-%C3%89tang_de_Thau%2C_S%C3%A8te_cf01.jpg);
+
+}
+p#quatorze{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Primeiros_submarinos_brasileiros_constru%C3%ADdos_na_It%C3%A1lia_e_comissionados_em_17_de_julho_de_1914.jpg/150px-Primeiros_submarinos_brasileiros_constru%C3%ADdos_na_It%C3%A1lia_e_comissionados_em_17_de_julho_de_1914.jpg);
+
+}
+p#quinze{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Putin_attended_the_opening_ceremony_of_2022_Beijing_Winter_Olympics_%282%29.jpg/125px-Putin_attended_the_opening_ceremony_of_2022_Beijing_Winter_Olympics_%282%29.jpg);
+
+}
+
+p#dezesseis{
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Sunflower_as_GIF.gif/150px-Sunflower_as_GIF.gif);
+}
