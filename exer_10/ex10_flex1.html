@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+        body{
+            margin: 2px;
+        }
+
+        .grow1 {
+            flex-grow: 1;
+        }
+
+        .grow2 {
+            flex-grow: 2;
+        }
+
+
+        .item {
+            margin: 10px;
+            border: 2px solid rgb(250, 8, 8);
+            text-align: center;
+            height: 200px;
+            box-shadow: -10px 10px red;
+
+        }
+
+        /* Flex Container */
+        .container {
+            width: 100%;
+            margin-bottom: 20px;
+            display: flex;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="container">
+        <div class="item grow1"></div>
+        <div class="item grow1"></div>
+        <div class="item grow1"></div>
+        <div class="item grow1"></div>
+        <div class="item grow2"></div>
+    </section>
+
+    <section class="container">
+        <div class="item grow2"></div>
+        <div class="item grow2"></div>
+        <div class="item grow1"></div>
+        <div class="item grow1"></div>
+    </section>
+
+    <section class="container">
+        <div class="item grow1"></div>
+        <div class="item grow1"></div>
+        <div class="item grow2"></div>
+        <div class="item grow2"></div>
+    </section>
+
+
+
+
+</body>
+
+</html>
