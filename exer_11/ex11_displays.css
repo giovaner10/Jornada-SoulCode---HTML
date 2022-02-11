@@ -1,0 +1,103 @@
+body {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: repeat(8, 80vh);
+    row-gap: 80px;
+}
+
+.s1 {
+    display: grid;
+    grid-template-rows: 65px;
+    border: solid 4px black;
+}
+
+.s2 {
+    display: grid;
+    grid-template-rows: 65px auto 40px;
+    border: solid 4px black;
+}
+
+.s3 {
+    display: grid;
+    grid-template-columns: 65px;
+    border: solid 4px black;
+}
+
+.s4 {
+    display: grid;
+    grid-template-columns: 65px auto 65px;
+    border: solid 4px black;
+}
+
+.s5 {
+    display: grid;
+    grid-template-columns: 65px  auto;
+    grid-template-rows: 65px auto;
+    border: solid 4px black;
+}
+
+.s6 {
+    display: grid;
+    grid-template-columns: 65px  auto 65px;
+    grid-template-rows: 65px auto;
+    border: solid 4px black;
+}
+
+.s7 {
+    display: grid;
+    grid-template-columns: 65px auto;
+    grid-template-rows: 65px auto 40px;
+    border: solid 4px black;
+}
+
+.s8 {
+    display: grid;
+    grid-template-columns: 65px auto 65px;
+    grid-template-rows: 65px auto 40px;
+    border: solid 4px black;
+}
+
+.a1 {
+    background-color: black;
+}
+
+.a2 {
+    background-color: rgb(30, 42, 201);
+}
+
+.a3 {
+    background-color: rgb(111, 117, 190);
+}
+
+.a4 {
+    background-color: rgb(23, 138, 80);
+}
+
+.a1s5{
+grid-column-start: 1;
+grid-column-end: 3;
+z-index: 10;
+}
+
+.a1s6{
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 10;
+}
+
+.a1s7{
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 10;
+}
+
+.a2s7{
+grid-column-start: 1;
+grid-column-end: 4;
+z-index: 10;
+grid-row-start: 3;
+}
