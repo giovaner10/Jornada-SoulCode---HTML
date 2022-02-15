@@ -1,0 +1,9 @@
+-> Crie um código que receba 3 valores do comprimento de um triângulo e depois mostre um alert informando se o triângulo é equilátero, isóceles ou escaleno.
+
+-> Faça um script que leia três números inteiros e mostre o maior deles.
+
+
+-> Crie duas variáveis e peça para que o usuário digite dois números inteiros pelo prompt. Após receber os valores nas variáveis, inverta os valores dentro das variáveis, ou seja, o valor da variável x vai para a variável y e o valor da variável y vai para a variável x. Mostre o antes das variáveis e seu depois.
+
+
+OBS: Faça cada exercício em um arquivo JS diferente.
